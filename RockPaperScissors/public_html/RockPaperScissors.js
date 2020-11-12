@@ -1,9 +1,15 @@
-function generateComputerChoice() {
+//function generateComputerChoice() 
+var generateComputerChoice = Math.random() * 3;
+if (generateComputerChoice === 1) {
+    generateComputerChoice = "rock";
+    } else if (generateComputerChoice === 2) {
+        generateComputerChoice = "paper";
+    } else {
+        generateComputerChoice = "scisors";
+    }
 //generate a random number between 1 and 3
 //1 = rock, 2 = paper, 3 = scissors
 //the function should return the name of the computer's choice
-
-}
 
 function PlayTheGame() {
 //declare variables to hold the player choice and the computer choice
