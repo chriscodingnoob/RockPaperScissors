@@ -1,5 +1,5 @@
 function generateComputerChoice() {
-var computerChoice = Math.random() * 3;
+let computerChoice = Math.random() * 3;
 computerChoice = Math.floor(computerChoice) +1;
 if (computerChoice === 1) {
     generateComputerChoice = "Rock";
